@@ -4,7 +4,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 body{
-  background-image: linear-gradient(to right,#FFCB9A,#D8B08C);  
+  background-image: linear-gradient(to right,#FFCB9A,hsl(28, 49%, 70%));  
 }
 img{
     border-radius:30px;
@@ -16,9 +16,10 @@ p{
 
 main{
   background-color: white;
-  box-shadow: 10px 10px 10px black;
+  box-shadow: 5px 5px 10px hsl(28, 26%, 41%);
   width: 600px;
   margin-top: 20px;
+  border-radius: 10px;
   padding: 10px;
   margin: auto;
 }
