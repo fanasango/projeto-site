@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body{
-  background-color: antiquewhite;  
+  background-image: linear-gradient(to right, blue,white, green);  
 }
 img{
     border-radius:30px;
