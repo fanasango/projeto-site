@@ -15,7 +15,9 @@ p{
 
 main{
   background-color: white;
+  box-shadow: 10px 10px 10px black;
   width: 600px;
+  margin-top: 20px;
   padding: 10px;
   margin: auto;
 }
