@@ -1,7 +1,13 @@
 @charset "UTF-8";
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
 body{
   background-image: linear-gradient(to right, blue,white, green);  
 }
 img{
     border-radius:30px;
+}
+p{
+  text-align: justify;
 }
