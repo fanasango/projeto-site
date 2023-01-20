@@ -4,7 +4,8 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 body{
-  background-image: linear-gradient(to right,#FFCB9A,hsl(28, 49%, 70%));  
+  background-image: linear-gradient(to right,#FFCB9A,hsl(28, 49%, 70%));
+  
 }
 img{
     border-radius:30px;
@@ -12,6 +13,13 @@ img{
 }
 p{
   text-align: justify;
+}
+a{
+  text-decoration:none;
+  color: #F5F5F7;
+  padding: 10px;
+  font: 12px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 main{
@@ -22,4 +30,44 @@ main{
   border-radius: 10px;
   padding: 10px;
   margin: auto;
+}
+ul{
+  margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    color: azure;
+}
+#ac-nav-global{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+  display: block;
+  margin: 0;
+  width: 100%;
+  min-width: 1024px;
+  height: 48px;
+  max-height: 44px;
+  background: #1D1D1F;
+  
+
+}
+
+#ac-nav-globalnav{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+  display: block;
+  margin: 0;
+  width: 100%;
+  min-width: 1024px;
+  height: 48px;
+  max-height: 44px;
+  background: rgba(92, 10, 10, 0.92);
+
 }
