@@ -31,9 +31,19 @@ body{
   background-image: linear-gradient(to right,#FFCB9A,hsl(28, 49%, 70%));
   font-family: var(--fonte-padrao);
 }
+header {
+  background-color: var(--cor4);
+}
 header > h1{
+  color: white;
   font-family:var(--fonte-destaque);
-  color: var(--cor3);
+  
+}
+header > p{
+  color: white;
+}
+main {
+  background-color: white;
 }
 main > h2{
   font-family:var(--fonte-android);
