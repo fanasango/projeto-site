@@ -48,4 +48,8 @@ main {
 main > h2{
   font-family:var(--fonte-android);
 }
+footer{
+  background-color: var(--cor5);
+  color: white;
+}
 
