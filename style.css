@@ -26,7 +26,10 @@ font-weight: normal;
 
   
 }
- 
+*{
+  margin: 0px;
+  padding: 0px;
+}
 body{
   background-image: linear-gradient(to right,#FFCB9A,hsl(28, 49%, 70%));
   font-family: var(--fonte-padrao);
