@@ -65,10 +65,13 @@ main {
 }
 main > h2{
   font-family:var(--fonte-android);
+  background-image: linear-gradient(to right, var(--cor0),transparent);
 }
 footer{
   background-color: var(--cor5);
   color: white;
+  text-align: center;
+  font-size: .8em;
 }
 nav{
   background-color: var(--cor5);
@@ -99,3 +102,25 @@ nav > a:active{
   border-color:var(--cor6);
   color: var(--cor0);
   }
+  p{
+    padding: 15px 0px;
+  }
+  main p{
+    text-align: justify;
+  }
+
+  div.video{
+  background-color: var(--cor5);
+  margin: 0px -20px 30px -20px;
+  padding: 20px;
+  padding-bottom: 58%;
+  position: relative;
+  }  
+  div.video > iframe{
+  
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    }  
