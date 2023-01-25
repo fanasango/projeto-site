@@ -75,7 +75,7 @@ footer{
 }
 nav{
   background-color: var(--cor5);
-  padding: 10px;
+  padding: 0px;
 
 }
 nav > a{
@@ -85,12 +85,13 @@ nav > a{
   text-decoration: none;
   text-align: center;
   
+  
 
 }
 nav > a:hover{
 
 border-bottom-style: solid;
-border-width: 5px;
+border-width: 0px;
 border-color:var(--cor6);
 color: var(--cor0);
  
@@ -144,6 +145,48 @@ nav > a:active{
         
           
            }  
+          
+nav ul {
+  
+display: block;
            
+    }
+menu  {
+  
+  display: none;
+  
+                      
+}
+
+menu a {
+  
+ display: block;
+ padding: 10px;
+ border-top: 1px solid gray;
+ margin: 0px;
+                 
+          }
+menu a:hover {
+  
+ background-color: var(--cor0);
+ color: var(--cor6);
+                            
+}
+span#burguer {
+  
+  background-color: var(--cor5);
+  display: block;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  
+                             
+ }               
+ span#burguer:hover {
+  
+  background-color: var(--cor0);
+  color: var(--cor6);
+}         
          
          
