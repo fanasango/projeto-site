@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+:root{
+    --cor0:#c5ebd6;
+    --cor1:#83e1ad;
+    --cor3:#3ddc84;
+    --cor4:#2fa866;
+    --cor5:#1a5c37;
+    --cor6:#063d1e;
+    --fonte-padrao:'Poppins', sans-serif;;
+    --fonte-destaque:'Bebas Neue', cursiva;;
+    --fonte-android:"Android",cursiva;
+  
+    
+  }
+@media screen and (min-width:768px) {
+    i#bur{
+     display: none;
+    } 
+    menu#itens  {
+        display: block;
+        border-style: none;
+    } 
+    nav{
+        display: inline-flex;
+        width: 100vw;
+        border-style: none;
+    } 
+    nav > a:hover{
+        background-color:var(--cor5);
+    }
+    menu > nav > a {
+        
+        border-top: none;
+    }  
+}
