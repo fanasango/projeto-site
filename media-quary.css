@@ -11,7 +11,6 @@
     --fonte-destaque:'Bebas Neue', cursiva;;
     --fonte-android:"Android",cursiva;
   
-    
   }
 @media screen and (min-width:768px) {
     i#bur{
@@ -25,6 +24,7 @@
         display: inline-flex;
         width: 100vw;
         border-style: none;
+
     } 
     nav > a:hover{
         background-color:var(--cor5);
@@ -32,5 +32,11 @@
     menu > nav > a {
         
         border-top: none;
-    }  
+        padding: 0px 20px;
+    }
+    menu > nav > a:hover {
+    background-color:var(--cor5);
+    color: rgb(194, 165, 165);
+    border-bottom: 5px solid var(--cor4);
+    }    
 }
