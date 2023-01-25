@@ -24,7 +24,6 @@
         display: inline-flex;
         width: 100vw;
         border-style: none;
-
     } 
     nav > a:hover{
         background-color:var(--cor5);
