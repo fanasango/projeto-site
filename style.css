@@ -28,7 +28,7 @@ font-weight: normal;
   padding: 0px;
 }
 body{
-  background-image: linear-gradient(to right,#FFCB9A,hsl(28, 49%, 70%));
+  background-image: linear-gradient(to right,#d4d1ce,hsl(24, 19%, 89%));
   font-family: var(--fonte-padrao);
 }
 header {
@@ -161,6 +161,7 @@ menu a {
  padding: 10px;
  border-top: 1px solid gray;
  margin: 0px;
+ box-sizing: border-box;
                  
 }
 menu a:hover {
@@ -184,6 +185,9 @@ span#burguer {
   
   background-color: var(--cor0);
   color: var(--cor6);
-}         
-         
+}
+  
+  
+      
+ 
          
